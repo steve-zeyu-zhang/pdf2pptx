@@ -9,8 +9,8 @@ This script gets a PDF file as input and generates a Powerpoint PPTX file while 
 Simply explained, I convert all the slides to high-quality image files first, and then push them into a Powerpoint project as a slide.
 
 # How to run
-* Execute `./pdf2pptx.sh test.pdf` to generate a `test.pdf.pptx` file  (replace `test.pdf` with your filename).
-* By default the output powerpoint project is in the widescreen mode. If your slides are not for widescreen you can alternatively run `./pdf2pptx.sh test.pdf notwide` to generate a 4:3 standard PPTX project.
+* Execute `./pdf2pptx-pdftoppm.sh test.pdf` to generate a `test.pdf.pptx` file  (replace `test.pdf` with your filename).
+* By default the output powerpoint project is in the widescreen mode. If your slides are not for widescreen you can alternatively run `./pdf2pptx-pdftoppm.sh test.pdf notwide` to generate a 4:3 standard PPTX project.
 * Runing with poppler : `./pdf2pptx-pdftoppm.sh test.pdf`
 
 # Dependencies
