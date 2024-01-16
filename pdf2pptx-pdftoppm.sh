@@ -1,8 +1,8 @@
 #!/bin/bash
 # Alireza Shafaei - shafaei@cs.ubc.ca - Jan 2016
 
-resolution=1024
-density=300
+resolution=4096
+density=1200
 #colorspace="-depth 8"
 colorspace="-colorspace sRGB -background white -alpha remove"
 makeWide=true
